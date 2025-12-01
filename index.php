@@ -29,9 +29,10 @@ $felhasznalo_email = htmlspecialchars($_SESSION["user_email"]);
  
   <main>
     <h1>kijelentkezés</h1>
-    <form action="logiout.php" method="post">
+    <form action="logout.php" method="post">
   <input type="submit" value="Kijelentkezés (nem müködik)">
 </form>
   </main>
 </body>
 </html>
+
